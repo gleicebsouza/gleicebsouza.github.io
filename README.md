@@ -1,7 +1,7 @@
-<h1 align="center"> DevLinks </h1>
+<h1 align="center"> gleicebsouza </h1>
 
 <p align="center">
-Programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologias WEB. <br/>
+Desenvolvedor(a) front-end jr, no momento estudando para ser uma desenvolvedora FullStack <br/>
 </p>
 
 <p align="center">
@@ -10,12 +10,11 @@ Programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnolog
 </p>
 
 <br>
-
 <p align="center">
-  <img alt="projeto DevLinks" src="./assets/Preview.png" width="100%">
+  //<img alt="linkthree" src="./assets/Preview.png" width="100%">
 </p>
 
-## 🚀 Tecnologias
+## Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
@@ -27,9 +26,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O DevLinks é um agregador de links para usar como cartão de visitas online.
 
-- [Acesse o projeto finalizado, online](https://linktree-devs.vercel.app/)
-
+- [Acesse o projeto finalizado, online](https://gleice.dev/)
 
 ---
 
-Feito com ♥ by Gabriel Bastos :wave: 
+Feito com ♥ by Gleice Souza:wave:
