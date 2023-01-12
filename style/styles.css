@@ -1,0 +1,283 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  font-size: 62.5%;
+
+  --text-color: #FFFFFF;
+  --border-color: #ffffff39;
+  --background-color: #ffffff1a;
+  --background-color-hover: #ffffff0d;
+  --border-color-hover: #ffffff;
+  --background-color-icon-hover:#ffffff33;
+  --svg-fill:white;
+
+  --background-image: url(/assets/backgrounds/BackgroundDark.png);
+  --background-button: url(/assets/switch-themeSvg/moon.svg);
+  --background-desktop: url(../assets/backgrounds/BackgroundDarkDesktop.png);
+
+}
+
+.light{
+ --text-color:black;
+ --border-color:#00000080;
+ --background-color:#0000000d;
+ --background-color-hover:#00000005;
+ --border-color-hover: black;
+ --background-color-icon-hover:#0000001a;
+ --svg-fill:black;
+
+ --background-image: url(/assets/backgrounds/BackgroundLight.png);
+ --background-button: url(/assets/switch-themeSvg/sun.svg);
+ --background-desktop: url(../assets/backgrounds/BackgroundLightDesktop.png);
+}
+
+body{
+  background: var(--background-image) no-repeat top center/cover;
+  height: 100vh;
+  font-size: 1.6rem;
+  font-family: 'Poppins', sans-serif;
+  color: var(--text-color);
+}
+
+
+#app{
+  margin: 5.6rem auto 0rem;
+
+  max-width: 54rem;
+  height: 71.2rem;
+}
+
+header{
+  max-width: 100vw;
+  height: 19.2rem;
+
+}
+
+.profile-picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: .8rem;
+
+  padding: 2.4rem;
+}
+.profile-picture img{
+  max-width: 11.2rem;
+  height: 11.2rem;
+  
+  border-radius: 50%;
+  border: 1px solid var(--border-color);
+
+  object-fit: cover;
+}
+
+.profile-picture a {
+  color: var(--text-color);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+
+/*Theme Switch*/
+.switch-theme{
+  position: relative;
+  width: 6.4rem;
+  margin: .4rem auto;
+}
+
+.switch-theme button{
+
+  width: 3.2rem;
+  height: 3.2rem;
+
+  position: absolute;
+  z-index: 1;
+  
+  transform: translateY(-50%);
+  top: 50%;
+  left: 0;
+  
+  
+  /* margin-right: 4rem;
+  margin-top: -.4rem; */
+
+  background: white var(--background-button) no-repeat center;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+
+  animation: slide-back .3s;
+}
+
+
+.switch-theme span{
+  display: block;
+  z-index: -1;
+
+  border-radius: 999rem;
+  
+  width: 6.4rem;
+  height: 2.4rem;
+
+  background-color: var(--background-color);
+  border: 1px solid var(--border-color);
+
+  backdrop-filter: blur(.4rem);
+  -webkit-backdrop-filter: blur(.4rem);
+}
+
+
+.light .switch-theme button {
+  animation: slide-in .4s forwards;
+}
+
+.switch-theme button:hover{
+  outline: 6px solid var(--background-color-icon-hover);
+}
+
+
+/*Social links section*/
+.social-links{
+  padding: 2.4rem; 
+}
+
+.social-links ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.social-links ul li {
+  list-style: none;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  max-width: 54rem;
+  height: 5.6rem;
+  
+
+  background-color: var(--background-color);
+  border: 1px solid var(--border-color);
+  backdrop-filter: blur(.4rem);
+  -webkit-backdrop-filter: blur(.4rem);
+  border-radius: .8rem;
+  
+  text-align: center;
+
+  transition: all .3s ease-in;
+}
+
+.social-links ul li:hover{
+  background-color: var(--background-color-hover);
+  border: 1px solid var(--border-color-hover);
+}
+
+.social-links ul li a {
+  color: var(--text-color);
+  text-decoration: none;
+  width: 100%;
+
+  font-weight: bold;
+}
+
+
+
+/*Social medias section*/
+.social-medias {
+  padding: 2.4rem;
+}
+
+.social-medias ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.social-medias ul li{
+  list-style: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  
+
+}
+.social-medias ul li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 1.6rem;
+
+  border-radius: 50%;
+
+  transition: all .3s ease-in;
+}
+
+.social-medias ul li a:hover{
+  background-color: var(--background-color-icon-hover);
+}
+
+.social-medias svg path{
+  fill: var(--svg-fill);
+}
+
+
+
+
+/*Made for section*/
+.made-for{
+  padding: 2.4rem;
+  text-align: center;
+}
+
+.made-for h3 {
+  font-size: 1.4rem;
+}
+
+.made-for span {
+  color: red;
+  font-size: 1.8rem;
+}
+
+
+
+
+
+@media (min-width:1024px){
+  body{
+    background: var(--background-desktop) no-repeat top center/cover;
+    overflow: hidden;
+  }
+}
+
+@keyframes slide-in {
+  from{
+    left: 0;
+  }
+  to{
+    left: 50%;
+  }
+}
+
+
+@keyframes slide-back {
+  from{
+    left: 50%;
+  }
+
+  to{
+    left: 0;
+  }
+}
