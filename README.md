@@ -1,33 +1,19 @@
-<h1 align="center"> gleicebsouza </h1>
-
+<h1 align="center"> Gleice Souza</h1>
+💻 https://gleice.dev/ 
 <p align="center">
-Desenvolvedor(a) front-end jr, no momento estudando para ser uma desenvolvedora FullStack <br/>
+Desenvolvedor(a) Web Front-end Jr. <br/>
+Apaixonada por todo o contexto que engloba desenvolvimento web.<br/>
+Trabalhando em projetos pessoais, e buscando a primeira oportunidade na área como dev front-end jr. <br/>
 </p>
 
 <p align="center">
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias">HTML</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">CSS</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">JavaScript</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Git</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">GitHub</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
-
 <br>
-<p align="center">
-  //<img alt="linkthree" src="./assets/Preview.png" width="100%">
-</p>
-
-## Tecnologias
-
-Esse projeto foi desenvolvido com as seguintes tecnologias:
-
-- HTML e CSS
-- JavaScript
-- Git e Github
-
-## 💻 Projeto
-
-O DevLinks é um agregador de links para usar como cartão de visitas online.
-
-- [Acesse o projeto finalizado, online](https://gleice.dev/)
-
 ---
 
-Feito com ♥ by Gleice Souza:wave:
+Feito com ♥ by Gleice Souza 👩🏻‍💻
