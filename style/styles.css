@@ -47,6 +47,7 @@ body {
 
   max-width: 54rem;
   height: 71.2rem;
+  animation: slide 600ms 200ms ease-in;
 }
 
 header {
@@ -165,6 +166,7 @@ header {
   transition: all 0.3s ease-in;
 }
 
+
 .social-links ul li:hover {
   background-color: var(--background-color-hover);
   border: 1px solid var(--border-color-hover);
@@ -257,5 +259,14 @@ header {
 
   to {
     left: 0;
+  }
+}
+
+@keyframes slide {
+  0% {
+    transform: translateY(-50px);
+  }
+  100% {
+    transform: translateY(0);
   }
 }
