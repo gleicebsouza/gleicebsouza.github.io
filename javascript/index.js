@@ -1,6 +1,6 @@
+//bloco var
 let theme = document.querySelector('body');
 let buttonTheme = document.querySelector('.switch-theme button');
-
 
 //add toggle dark mode
 function SwitchTheme(){
