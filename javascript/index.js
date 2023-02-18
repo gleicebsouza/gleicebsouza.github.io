@@ -1,3 +1,4 @@
+//test
 let theme = document.querySelector('body');
 let buttonTheme = document.querySelector('.switch-theme button');
 
