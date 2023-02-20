@@ -1,9 +1,9 @@
-//test
-let theme = document.querySelector('body');
-let buttonTheme = document.querySelector('.switch-theme button');
+// Teste commit
+let theme = document.querySelector('body')
+let buttonTheme = document.querySelector('.switch-theme button')
 
-function SwitchTheme(){
-  buttonTheme.addEventListener('click',()=>{
+function SwitchTheme() {
+  buttonTheme.addEventListener('click', () => {
     theme.classList.toggle('light')
   })
 }
