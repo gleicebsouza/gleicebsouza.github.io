@@ -165,7 +165,6 @@ header {
   transition: all 0.3s ease-in;
 }
 
-
 .social-links ul li:hover {
   background-color: var(--background-color-hover);
   border: 1px solid var(--border-color-hover);
