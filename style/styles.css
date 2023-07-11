@@ -14,13 +14,15 @@
   --background-color-icon-hover: #ffffff33;
   --svg-fill: white;
 
-  --background-image: url(/assets/backgrounds/BackgroundDark.png);
+  --background-image: #3e3b47;
+  //--background-image: url(/assets/backgrounds/BackgroundDark.png);
   --background-button: url(/assets/switch-themeSvg/moon.svg);
-  --background-desktop: url(../assets/backgrounds/BackgroundDarkDesktop.png);
+  --background-desktop: #3e3b47;
+  //--background-desktop: url(../assets/backgrounds/BackgroundDarkDesktop.png);
 }
 
 .light {
-  --text-color: black;
+  --text-color: #1d1c20;
   --border-color: #00000080;
   --background-color: #0000000d;
   --background-color-hover: #00000005;
@@ -35,8 +37,9 @@
 
 body {
   background: var(--background-image) no-repeat top center/cover;
+
   height: 100vh;
-  font-size: 1.6rem;
+  font-size: 2.4rem;
   font-family: 'Poppins', sans-serif;
   color: var(--text-color);
 }
@@ -48,12 +51,16 @@ body {
   height: 71.2rem;
   animation: slide 600ms 200ms ease-in;
 }
-
 header {
   max-width: 100vw;
   height: 19.2rem;
 }
-
+a.link-a {
+  font-size: 1.8rem;
+}
+main {
+  padding-top: 10rem;
+}
 .profile-picture {
   display: flex;
   justify-content: center;
@@ -64,9 +71,8 @@ header {
   padding: 2.4rem;
 }
 .profile-picture img {
-  max-width: 11.2rem;
-  height: 11.2rem;
-
+  width: 186px;
+  height: 186px;
   border-radius: 50%;
   border: 1px solid var(--border-color);
 
@@ -141,7 +147,7 @@ header {
 .social-links ul {
   display: flex;
   flex-direction: column;
-  gap: 1.6rem;
+  gap: 2.6rem;
 }
 
 .social-links ul li {
@@ -210,12 +216,12 @@ header {
 
 .social-medias ul li a:hover {
   background-color: var(--background-color-icon-hover);
+  transform: scale(1.2);
 }
 
 .social-medias svg path {
   fill: var(--svg-fill);
 }
-
 /*Made for section*/
 .made-for {
   padding: 2.4rem;
